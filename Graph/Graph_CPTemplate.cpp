@@ -30,6 +30,10 @@ int     adjMatrix[MAX_V][MAX_V];
 bool    visited[MAX_V][MAX_V];
 #define VISITED     true
 #define UNVISITED   false
+
+// int dr[] = {1, 0, -1, 0};
+// int dc[] = {0, 1, 0, -1};
+
 int bfs(int posn, int posm){ // For Adjancent Matrix
     int dc[] = {0,1,1, 1, 0,-1,-1,-1};
     int dr[] = {1,1,0,-1,-1,-1, 0, 1}; 
