@@ -186,10 +186,10 @@ int main() {
     // For Cin/Cout
     ios::sync_with_stdio(false);
     cin.tie(NULL); cout.tie(NULL);
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
+// #ifndef ONLINE_JUDGE
+//     freopen("input.txt", "r", stdin);
+//     freopen("output.txt", "w", stdout);
+// #endif
 
     int T = 1;
     cin >> T;
