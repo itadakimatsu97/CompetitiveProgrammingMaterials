@@ -60,13 +60,9 @@ const int dc[] = {0, +1, 0, -1};
 /*      Begin   : Declare global input        */
 
 /*      END     : Declare global input        */
-void readInput() {
 
-}
 
-void solver() {
 
-}
 
 int main() {
     ios::sync_with_stdio(false);
@@ -81,8 +77,7 @@ int main() {
     cin >> T;
     while (T--) {
         cout << "Test case #" << T << "\n";
-        readInput();
-        solver();
+
     }
     return 0;
 }
