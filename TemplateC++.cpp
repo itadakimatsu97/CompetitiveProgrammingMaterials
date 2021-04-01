@@ -3,16 +3,12 @@
 
 using namespace std;
 
-/****** Template of MACRO/CONSTANT *****/
 typedef long long ll;
 typedef long double ld;
 typedef unsigned long long ull;
 typedef unsigned int ui;
 typedef pair<int, int> ii;
 typedef vector<int> vi;
-typedef vector<char> vc;
-typedef vector<string> vs;
-typedef vector<bool> vb;
 typedef vector<ii> vii;
 
 #define fi first
@@ -27,15 +23,9 @@ typedef vector<ii> vii;
 #define Ford(i, a, b) for (int i = (a); i >= (b); --i)
 #define Trav(i,v) for(auto i: v)
 #define Travd(i,v) for(auto i = (v).rbegin(); i != (v).rend(); ++i)
-#define Val(a, b) typeof(b) a(b)
 #define all(a) (a).begin(), (a).end()
-#define rall(x) (x).rbegin, (x).rend()  //reverse traversal
+#define rall(x) (x).rbegin(), (x).rend()  //reverse traversal
 #define ms(a,x) memset(a, x, sizeof(a))
-#define sz(a) ((int)(a).size())
-#define last(a) (a)[sz(a)-1]
-
-#define Sort(a) sort(all(a))
-#define GSort(a) sort(all(a), greater<typeof(*((x).begin()))>()>)
 #define Unique(v) Sort(v); (v).resize(unique(all(v)) - (v).begin())
 
 template<class F, class T> T convert(F a, int p = -1) { stringstream ss; if (p >= 0) ss << fixed << setprecision(p); ss << a; T r; ss >> r; return r; }
@@ -52,7 +42,7 @@ const ld PI = acos(-1.0);
 const ld EPS = 1e-9;
 const int INF = (int)1e9 + 5;
 const ll LINF = (ll)1e16 + 5;
-const ll MODULO = (ll)1e9 + 7; //Modulo
+const ll MOD = (ll)1e9 + 7; //Modulo
 
 const int dr[] = {-1, 0, +1, 0};
 const int dc[] = {0, +1, 0, -1};
@@ -70,14 +60,8 @@ int main() {
 #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-    freopen("error.txt", "w", stderr);
 #endif
 
-    int T = 1;
-    cin >> T;
-    while (T--) {
-        cout << "Test case #" << T << "\n";
 
-    }
     return 0;
 }
