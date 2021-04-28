@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 #include <algorithm>
-
+// #define HACKER_RANK
 using namespace std;
-#define HACKER_RANK
 const int MAX = 1e5+10;
 int N;
 int arr[MAX];
@@ -30,8 +29,8 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL); cout.tie(NULL);
 #ifdef HACKER_RANK
-    freopen("input.txt", "r", stdin);
-    ofstream fout("output.txt");
+    // freopen("in", "r", stdin);
+    ofstream fout("out");
 #else
     ofstream fout(getenv("OUTPUT_PATH"));
 #endif
